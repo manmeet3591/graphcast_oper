@@ -1,6 +1,6 @@
 # graphcast_oper
 
-$ sudo docker run -it --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 nvcr.io/nvidia/modulus/modulus:24.04
+$  sudo docker run -it --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -v $(pwd):/workspace  nvcr.io/nvidia/modulus/modulus:24.04
 
 $ pip install ai-models-graphcast
 
